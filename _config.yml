@@ -1,0 +1,65 @@
+# Build settings
+gems:
+  - jemoji
+  - jekyll-paginate
+
+# Site settings
+title: "Open Amdocs Technical Blog"
+description: > # this means to ignore newlines until "email:"
+   Home of all technical articles about Amdocs open source activity
+
+email: a-mail@mail.mail
+#blog logo
+logo: "/assets/images/logo.jpg"
+float_logo: true # true, false (default)
+permalink: :title
+
+# blog cover
+cover: "/assets/images/amdocs-2017-brand-desktop-wallpaper-1920x1200.jpg"
+
+name: 'Open Amdocs'
+author: 'Dirk Fabisch'
+author_image: "/assets/images/author.jpg"
+
+paginate:	5
+
+# by zohar sacks
+# url: "http://myblog.***.***" # the base hostname & protocol for your site
+# baseurl: ""
+# #used to display twitter cards
+# twitter_handle: '@dirkfabisch'
+
+#fill in disqus shortname to use disqus
+#disqus: disqus-shortname
+
+#google_analytics: UA-XXXXX-X
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/amdocs
+    desc: Follow us on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+  
+  - icon:	facebook
+    url:	https://facebook.com/amdocs
+    desc: Connect with me on facebook
+    share_url: https://www.facebook.com/sharer.php
+    share_title: ?t=
+    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/open-amdocs
+    desc:	Follow us on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
