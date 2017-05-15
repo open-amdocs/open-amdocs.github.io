@@ -3,8 +3,9 @@ layout: post
 title:  Why we migrated to Jest
 date:   2017-04-24 10:11:25
 tags: featured
-image: /assets/article_images/2017-04-24-why-we-migrated-to-jest/lab-test.jpg
-image2: /assets/article_images/2017-04-24-why-we-migrated-to-jest/lab-test-mobile.jpg
+image: /assets/article_images/2017-05-14-git-performance-benchmark/performance.jpg
+image2: /assets/article_images/2017-05-14-git-performance-benchmark/performance_mobile.jpg
+imageSrc: https://www.flickr.com/photos/amylovesyah/4528869007/
 author: Omri Kochavi
 ---
 Ever since I started working as a member of Amdocs&#39; NFV Front End team, the main flaw of our development environment was our unit testing ecosystem. While using [React](https://facebook.github.io/react/), [Redux](http://redux.js.org/docs/introduction/) and [Webpack](https://webpack.github.io/) provided a fast and reliable development experience (with such cool features such as [Hot Module Replacement](https://webpack.github.io/docs/hot-module-replacement.html), [react-devtools](https://github.com/facebook/react-devtools) and [redux-devtools](https://github.com/gaearon/redux-devtools) extensions for Chrome, and the super light [Webpack Dev Server](https://webpack.github.io/docs/webpack-dev-server.html)), running, fixing and writing tests was a frustrating, often agonizing experience.
