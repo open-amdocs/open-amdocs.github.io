@@ -2,7 +2,6 @@
 layout: post
 title:  Why we migrated to Jest
 date:   2017-04-24 10:11:25
-tags: featured
 image: /assets/article_images/2017-05-14-git-performance-benchmark/performance.jpg
 image2: /assets/article_images/2017-05-14-git-performance-benchmark/performance_mobile.jpg
 imageSrc: https://www.flickr.com/photos/amylovesyah/4528869007/
