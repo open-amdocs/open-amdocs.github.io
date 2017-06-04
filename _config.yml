@@ -30,7 +30,7 @@ paginate:	5
 # twitter_handle: '@dirkfabisch'
 
 #fill in disqus shortname to use disqus
-#disqus: disqus-shortname
+disqus: open-amdocs
 
 #google_analytics: UA-XXXXX-X
 
