@@ -57,6 +57,13 @@ social:
     share_title:
     share_link:
 
+  - icon:	linkedin
+    url:	https://www.linkedin.com/company-beta/1539/
+    desc:	Follow us on Linkedin
+    share_url:   https://www.linkedin.com/shareArticle?mini=true
+    share_title: &amp;summary=
+    share_link: &amp;url=
+
 #  - icon:	google-plus
 #    url:	https://google.com/???
 #    desc:	Add me on google+
