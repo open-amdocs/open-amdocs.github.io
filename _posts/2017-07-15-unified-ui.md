@@ -7,8 +7,6 @@ image2: /assets/article_images/2017-07-15-unified-ui/unified_mobile.jpg
 imageSrc: https://www.flickr.com/photos/dno1967b/33741054965/
 author: Omri Kochavi
 ---
-# Introduction
-
 &quot;Why do these buttons look different? Why are the link colors not the same? Why is this icon&#39;s hover color a different shade of grey?&quot; – Just a selection from the (vindicated) complaints we are all used to hearing from our UX/UI designers, customers, managers, and just strangers that see our app. In the modern web days, these canonical problems are usually solved by utilizing the same CSS classes across pages, or the same components if you are using a component-based library like [React](https://facebook.github.io/react/) or [Angular](https://angularjs.org/).
 
 But what if your company is a very big one, and has many different products which need to adhere to the same look and feel? What if your app consists of multiple apps, each one developed in a separate codebase, by a different team in a different company? What if you&#39;re working on a giant open source ecosystem that consists of over 50 projects, and has over 40 large-scale companies as members? At the Amdocs NFV unit, all of the above applies. As these problems kept hitting us harder and harder, we set on a journey to a better, unified UI world – inspired by a meet-up session with [Klarna](https://www.klarna.com/international) about their [solution](https://github.com/klarna/ui).
