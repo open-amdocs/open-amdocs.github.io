@@ -23,6 +23,13 @@
                         on
                         <time datetime="{{ page.date | date: " %F %R " }}">{{ page.date | date_to_string }}</time>
                     </div>
+                    <div class="share-left">
+                        {% for social in site.social %} {% if social.share_url != null %}
+                        <a class="icon-{{ social.icon }}" href="{{ social.share_url }}{% if social.share_title %}{{ social.share_title }}{{page.title | cgi_escape}}{% endif %}{{ social.share_link }}{{site.url}}{{site.baseurl}}{{page.id}}" onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
+                            <i class="fa fa-{{ social.icon }} fa-2x"></i><span class="hidden">{{ social.icon }}</span>
+                        </a>
+                        {% endif %} {% endfor %}
+                    </div>
                     <div style="text-align:center">
                         <a href="#topofpage" class="topofpage"><i class="fa fa-angle-down"></i></a>
                     </div>
