@@ -75,7 +75,7 @@ In the usage phase, the designer knows the end result will look exactly like the
 By completely separating the UI library from the product, customization becomes much simpler. Whenever a specific customer or use case requires a customized look, we can just fork the repository, implement the necessary changes, and consume this new package in the desired project. All of the solid infrastructure the project is based on will be there. Only changes to the look and feel will be applied. Forking doesn&#39;t mean we lose contact with the main repository. We can always sync our fork with the latest changes, absorbing or overriding what we need. With this method, different groups and teams can use our code for their own special needs – and still enjoy the benefits of our solid foundations. 
 
 The following diagram shows the above paradigm:
-![seperation diagram](/assets/article_images/2017-07-15-unified-ui/unified.jpg)
+![seperation diagram](/assets/article_images/2017-07-15-unified-ui/unified-ui.jpg)
 
 
 
